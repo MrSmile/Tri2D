@@ -1,0 +1,3 @@
+[submodule "NTL"]
+	path = NTL
+	url = https://github.com/MrSmile/NTL
