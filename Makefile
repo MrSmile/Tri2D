@@ -1,8 +1,8 @@
 
-HEADER = vec2d.h
-SOURCE = main.cpp
-FLAGS = -std=c++11 -INTL/include -Wall -Wno-parentheses
-LIBS =
+HEADER = vec2d.h delaunay.h
+SOURCE = delaunay.cpp main.cpp
+FLAGS = -std=c++11 -INTL/include -fno-exceptions -DGL_GLEXT_PROTOTYPES -Wall
+LIBS = -lSDL -lGL
 PROGRAM = tri2d
 
 
